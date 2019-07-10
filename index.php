@@ -1,11 +1,22 @@
 <?php
-    include_once('stat.php');
-    include('bd.php');
-    $stat = new Stat($mysqli);
-    $status = $stat->insertData();
-    if ($status){
-        echo "no error";
-    } else {
-        echo "Error";
-    }
+
+    include ('bd.php');
+    include_once ('Stat.php');
+    
+    
+
 ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <a href="./login.php">Login In</a><br>
+    <a href="./SinglUp.php">Singl Up</a>
+</body>
+</html>
+

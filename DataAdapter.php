@@ -1,7 +1,8 @@
 <?php
     class DataAdapter {
-        protected $_mysqli = null;
+        protected $mysqli = null;
         public function __construct($mysqli){
-            $this->_mysqli=$mysqli;
+            $this->mysqli=$mysqli;
         }
-    }
+}
+?>
